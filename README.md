@@ -2,7 +2,9 @@
 
 Buddy Allocator is a program using buddy memory allocation written in C for EECS 678 (Operating Systems). 
 
-This project is meant to build familiarity with Buddy Memory Allocation, the memory algorithm, and memory.
+This project is meant to build familiarity with Buddy Memory Allocation, the memory algorithm, and memory. Kernel needs to allocate memory for user-level applications and the kernel itself. For 
+user-level applications, it allocates a fixed size page frame at the time of each page fault. For kernel’s own allocations---such as allocating DMA buffers---it may need to allocate multiple
+physically contiguous page frames. To serve these requirements, Linux kernel implements an allocator based on the buddy algorithm.
 
 ---
 ## 📝 Authors
