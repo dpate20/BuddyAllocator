@@ -1,8 +1,8 @@
 # BuddyAllocator
 
-Quash is a lightweight custom shell written in C for EECS 678 (Operating Systems). It replicates many of the features you'd expect from a standard shell like `bash` or `csh`, including support for command execution, pipes, I/O redirection, environment variables, background jobs, and built-in commands.
+Buddy Allocator is a program using buddy memory allocation written in C for EECS 678 (Operating Systems). 
 
-This project is meant to build familiarity with UNIX system calls, the process model, and command-line interfaces.
+This project is meant to build familiarity with Buddy Memory Allocation, the memory algorithm, and memory.
 
 ---
 ## 📝 Authors
